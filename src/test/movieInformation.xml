@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+<listeners>
+		<listener class-name="listenerForReportingMechanism.ExtentReporterNG" />
+</listeners>
+	<test name="SeleniumAutomation">
+<parameter name="BrowserName" value="Chrome"></parameter>
+		<classes>
+			<class name="TestVagrant.TestVagrantAssessment.movieInformationTest" />
+		</classes>
+	</test>
+</suite>
